@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <headerType>gui</headerType>
+  <dontWrapJar>true</dontWrapJar>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <outfile>/home/shiera/demos/AliensFix/application.windows32/AliensFix.exe</outfile>
+  <icon>/home/shiera/bin/processing-3.5.3/modes/java/application/sketch.ico</icon>
+  <classPath>
+    <mainClass>AliensFix</mainClass>
+    <cp>lib/AliensFix.jar</cp>
+    <cp>lib/core.jar</cp>
+    <cp>lib/jogl-all.jar</cp>
+    <cp>lib/gluegen-rt.jar</cp>
+    <cp>lib/jogl-all-natives-windows-i586.jar</cp>
+    <cp>lib/gluegen-rt-natives-windows-i586.jar</cp>
+    <cp>lib/tritonus_aos.jar</cp>
+    <cp>lib/minim.jar</cp>
+    <cp>lib/mp3spi1.9.5.jar</cp>
+    <cp>lib/tritonus_share.jar</cp>
+    <cp>lib/jsminim.jar</cp>
+    <cp>lib/jl1.0.1.jar</cp>
+  </classPath>
+  <jre>
+    <minVersion>1.8.0_74</minVersion>
+    <opt>-Djna.nosys=true</opt>
+    <opt>-Djava.library.path="%EXEDIR%\lib"</opt>
+  </jre>
+</launch4jConfig>
